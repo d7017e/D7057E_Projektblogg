@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Inlägg - Case Bright Sights Blogg</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-blog-template.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Case Bright Sights Blogg</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="about.html">Om</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+    </nav>
+
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <div class="row">
+
+        <!-- Blog Post Content Column -->
+        <div class="col-lg-12">
+
+          <!-- Blog Post -->
+
+          <!-- Title -->
+          <h1 class="post-title">Fortsatt arbete och saker som börjar gå i hamn</h1>
+
+          <!-- Author -->
+          <p class="lead">
+            av Alice Johansson
+          </p>
+
+          <hr>
+
+          <!-- Date/Time -->
+          <p><span class="glyphicon glyphicon-time"></span> Oktober 25, 2024</p>
+
+          <hr>
+
+          <!-- Post Content -->
+          <p>Det som gruppen spenderat de senaste par veckorna på är till stor del sånt som inte känns som stora milstolpar utan snarare som gradvisa påbyggnader av det som redan har avklarats. Detta i kombination med att arbetet saktat ned en aning nu under tentaperioden är varför det gått lite längre mellan det här inlägget och föregående jämfört med de tidigare.</p>
+          <p>På frontendsidan har arbetet fortgått och fler och fler undersidor till appen färdigställs designmässigt. Vid en demo för projektets halvvägspunkt kunde allt ifrån projektinfo till projektlistan till QR-kodsskannaren visas upp i vad som i alla fall är mycket nära deras slutgiltiga design. Mycket av arbetet har också varit inriktad på hur användargränssnittet för backoffice-personal ser ut, där ligger fokuset på att designa för datorskärmar istället för mobiltelefoner som annars ses som den huvudsakliga enheten appen kommer att visas på.</p>
+          <p>Vid ett möte med Öjebyns Glas och Aluminium så beslutades det om att de tidigare två egenkontrollerna av litteran (en för produktionspersonal och en för montörspersonal) skulle kombineras till en gemensam, men där de olika fälten endast är synliga för den personalkategori en arbetare tillhör. Att arbeta in den här nya designen är något som Hannes på frontendteamet suttit med och det finns i nuläget en sida för denna nya kombinerade egenkontroll som snart kommer kunna kopplas ihop med de ändringar i databasen som Mattias på bakendteamet har implementerat för att hantera det här nya sättet som kontrollerna kommer fungera på.</p>
+          <p>Backenden och Frontenden har nu också till sist kopplats ihop. Robin och Helge har tillsammans skapat ett fungerande system för inloggning som använder sig av en JWT-token för att hålla en användare auktoriserad genom hela deras session. Då Alice nyligen färdigställde ett antal kopplingar mellan webbendpointsen och databasen kommer nog fler delar kunna kopplas ihop inom kort. De två delgrupperna har också fört ett allmänt närmare samarbete för att arbeta fram en gemensam syn på projektet, designen på gränssnittet för backoffice-personalen diskuterades till exempel i helgrupp ett antal gånger.</p>
+          <p>På backendsidan så har möjligheten till dokumentation av koden genom Swagger undersökts av Elvira, något som hade gjort överlämningen av projektet till Öjebyns G&A i framtiden smidigare. Jenny har arbetat på att lagra viss data från de externa APIerna i den lokala databasen för att undvika de långa svarstiderna som annars uppstår. Mattias har också utöver arbetet på egenkontrollerna börjat skriva tester för backenden, något som kommer underlätta framtida utveckling både i vår egen regi och ifall projektet vidareutvecklas efter det att vi har överlämnat det.</p>
+          <p>Planen för den närmsta tiden som den ser ut just nu är från backendsidans håll att möjliggöra för kopplingen till frontend, att implementera rollhantering för att styra vilken information som ges ut till vilka användare och att utöka den lokala databasen. För frontendsidans del så är det att färdigställa alla undersidor, färdigställa implementationen av de nya egenkontrollerna och att koppla ihop resterande delar med backenden. Ifall arbetet fortskrider i samma takt som det hitills har ser det ut som att allt kommer bli klart i tid.</p>
+
+          <hr>
+
+          <!-- Blog Comments -->
+
+          <hr>
+
+          <!-- Posted Comments -->
+
+        </div>
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <p></p>
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+
+</html>

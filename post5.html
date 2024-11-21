@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Inlägg - Case Bright Sights Blogg</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-blog-template.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Case Bright Sights Blogg</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="about.html">Om</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+    </nav>
+
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <div class="row">
+
+        <!-- Blog Post Content Column -->
+        <div class="col-lg-12">
+
+          <!-- Blog Post -->
+
+          <!-- Title -->
+          <h1 class="post-title">Nästan feature-complete och hoplänkat</h1>
+
+          <!-- Author -->
+          <p class="lead">
+            av Alice Johansson
+          </p>
+
+          <hr>
+
+          <!-- Date/Time -->
+          <p><span class="glyphicon glyphicon-time"></span> November 21, 2024</p>
+
+          <hr>
+
+          <!-- Post Content -->
+          <p>De senaste veckornas arbete har inte varit riktat mot att lägga till mycket ny funktionalitet utan snarare på att uppdatera den existerande funktionaliteten för att få den till ett fulländat och kravföljande stadie. </p>
+          <p>På frontendsidan har fokus legat på att koppla ihop webbsidan med backenden för att kunna visa den verkliga datan istället för testdata. Där har till exempel Hannes blivit klar med att koppla ihop projektlistan och projektdetaljerna med backenden och arbetar just nu med att göra detsamma för den egenkontrollssida som han sedan senaste blogginlägget hunnit till stor del färdigställa. Även Meba har arbetat på att fixa egenkontrollskopplingen men har även kopplad skapningen av användare och visandet av profiler med databasen och skapat funktionalitet för att skriva ut egenkontrollerna.</p>
+          <p>Robin på frontendsidan har tillsammans med Helge på backendsidan färdigställt inloggningen. Den visade sig ha ett flertal svårigheter att övervinna innan den var fullt fungerande med alla olika konfigurationer av webbläsare, datorer och användare. I samband med det arbetet har de implementerat funktionalitet för att skapa nya användarkonton och att styra vad en användare kan se och göra i applikationen baserat på deras roll inom företaget. Helge arbetar just nu vidare på att möta ett av de sista kvarvarande kraven från Öjebyns G&A som ännu inte färdigställts: tvåfaktorsautentisering på inloggningen. Robin har även hunnit implementera sökning och filtrering av projekt sen det senaste blogginlägget.</p>
+          <p>På backenden så har Mattias fortsatt suttit med databasfunktionalitet. Att hantera de uppdaterade egenkontrollerna som han arbetade på under förra blogginlägget har han nu blivit färdig med. Egenkontrollerna kan nu skapas från mallar som administrativ personal kan redigera, innehåller alla nödvändiga fält och stödjer även flera språk. Utöver det så har han varit delaktig i arbetet med att koppla ihop frontend och backend genom att uppdatera vad som behövts på backendsidan för att saker smidigt och fungerande ska sitta ihop och även implementerat testning av alla databasfunktioner.</p>
+          <p>Jenny och Elvira har implementerat den caching av data från de externa APIerna som nämndes i förra inlägget. En gång om dygnet kommer cachen att uppdateras och genom att hämta data från denna cache kan anrop som tidigare tog flera minuter för vissa användare gå på endast några millisekunder.</p>
+          <p>Alice har även hon arbetat med den sista stora icke-färdigställda featuren, egenkontroller, specifikt med att implementera funktionalitet för att koppla statusen på ett littera till vilka egenkontrollsfält som är markerade som färdigställda. Det är något som kommer att vara mycket smidigare för personalen än att man manuellt skulle behöva markera ett aluminiumparti som tillverkat eller monterat när egenkontrollerna ändå måste vara färdigställda vid slutet på varje steg för att litterat ska kunna gå vidare till nästa.</p>
+          <p>Den sista kvarvarande tiden lär gå till de två kvarvarande featursen som inte fått sin implementation påbörjad, uppladdning av ritningar och bilder till egenkontrollerna och utöver det så är det “bara” att se till att allt som arbetas på färdigställs, att allt testas och att applikationen som helhet är fungerande enligt de krav som ställts.</p>
+          <p>För att avsluta inlägget är här några bilder på hur applikationen just nu ser ut:</p>
+          
+          <img src="img/frontend_1.png">
+          <img src="img/frontend_2.png">
+          <img src="img/frontend_3.png">
+
+          <hr>
+
+          <!-- Blog Comments -->
+
+          <hr>
+
+          <!-- Posted Comments -->
+
+        </div>
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <p></p>
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+
+</html>

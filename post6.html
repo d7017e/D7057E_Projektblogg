@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Inlägg - Case Bright Sights Blogg</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-blog-template.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Case Bright Sights Blogg</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="about.html">Om</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+    </nav>
+
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <div class="row">
+
+        <!-- Blog Post Content Column -->
+        <div class="col-lg-12">
+
+          <!-- Blog Post -->
+
+          <!-- Title -->
+          <h1 class="post-title">Julen samt projektslutet närmar sig</h1>
+
+          <!-- Author -->
+          <p class="lead">
+            av Alice Johansson
+          </p>
+
+          <hr>
+
+          <!-- Date/Time -->
+          <p><span class="glyphicon glyphicon-time"></span> December 16, 2024</p>
+
+          <hr>
+
+          <!-- Post Content -->
+          <p>Det som allmänt kan sägas om de senaste veckorna är att, precis som de som föregick de föregående blogginlägget, så har fokuset främst legat på att färdigställa all funktionalitet och få applikationen som helhet till ett fulländat stadie. Detta är något som tagit mycket längre än vad man hade kunnat vänta från den lilla lilla TODO-listan som fanns kvar vid förra blogginlägget men sådan är ju som välkänt är mjukvaruutveckligens natur, saker och ting tar alltid mer tid än väntat.</p>
+          <p>På backendsidan så har ändå arbetet fortskridit enligt tidsplanen och den stod som färdigställd redan förra veckan med undantag för att vissa buggar behövde fixas samt alla PRs testas mergeas. Det som implementerats där är de två sista featuresen: filuppladdning som Mattias har fixat och tvåfaktorsautentisering som Helge har ansvarat för. Bägge dessa funktionaliteter står som helt färdigställda i nuläget. Utöver det så har Alice implementerat ett krav från Öjebyns G&A, att arbetare måste ladda upp två eller fler bilder efter ett littera blivit monterat innan det kan markeras som färdigställt. Jenny och Elvira har förfinat och buggfixat den caching de även tidigare arbetat med samt skrivit dokumentation.</p>
+          <p>På frontendsidan är det stora som blivit färdigställt tvåfaktorsautentisering vilket Robin har ansvarat för. Sen så har alla tre medlemmarna fortsatt med vad som nog bäst summeras som hårt arbete. Sidor har skapats för att visa informationen om litteran som kommer från backenden, knappar och textfält har lagts till för att manuellt synka till cachen och en enorm mängd polering och småfixande har gjorts. Insikten som har nåtts är väl att frontenden inte har varit lika nära klar som det har känts att den varit vilket gjort den här sista tiden lite mer stressad.</p>
+          <p>Då backenden nu anses vara färdigställd och de fem medlemmar som arbetat på den fått slut på arbete att ta sig an så har det tagits ett beslut om att flytta över alla medlemmar till att arbeta på frontenden. Tidigare har det vid diskussioner om hur mycket arbete som återstår inte ansetts vara värt tiden för en ny medlem att sätta in sig i frontendutveckling så här sent i projektet men med hur lite tid som återstår innan allt helst ska vara fullt fungerande så har förutsättningarna ändrats. För att underlätta detta så har det hållits ett onboardingmöte där frontendteamet förklarade hur utvecklingen i Svelte går till och ett antal issues har markerats som särskilt lämpliga för nytillkomna medlemmar. Detta är då främst enkla men något tidskrävande uppgifter som att se till att all text är korrekt och följer språkinställningarna, att det finns laddningshjul enligt en standard överallt där data måste inväntas och mer deskriptiv felhantering. Förhoppningsvis kommer detta fria upp de mer erfarna frontendutvecklarna nog för att de ska hinna bli klara med mer komplicerade saker.</p>
+          <p>Det enda stora som återstår att göra är att kunna skriva ut QR-koder för litteran. Annars så är det lite drygt 30 issues kvar på frontenden, alla är individuellt triviala men kommer ändå ta en del tid att få fixade. Tack vare att backenden är klar så känner vi dock ändå att 8 personer som jobbar hela den här veckan ut bör hinna få klart det. Om inte så får det läggas lite tid på det även efter jul men det hoppas vi kunna undvika.</p>
+
+          <hr>
+
+          <!-- Blog Comments -->
+
+          <hr>
+
+          <!-- Posted Comments -->
+
+        </div>
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <p></p>
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+
+</html>
